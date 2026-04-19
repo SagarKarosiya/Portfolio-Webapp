@@ -24,7 +24,10 @@ def data_science():
 @app.route('/game-dev')
 def game_dev():
     return render_template('games.html')
-
+@app.route('/g')
+def gm():
+    return render_template('maintenance.html')
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=10000)
-
+    #app.run(host="0.0.0.0", port=10000)
+    app.run(debug=True)
+   
