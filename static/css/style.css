@@ -171,6 +171,33 @@ section{
     margin-bottom:10px;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+/* GitHub Specific Style */
+.github {
+    background-color: #333;
+}
+.github:hover {
+    background-color: #555;
+}
+
+/* LinkedIn Specific Style */
+.linkedin {
+    background-color: #0077b5;
+}
+.linkedin:hover {
+    background-color: #005582;
+}
+
 /* FOOTER */
 footer{
     background:var(--grey);
